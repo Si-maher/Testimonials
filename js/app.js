@@ -24,4 +24,8 @@ function createCustomer (name, img, text) {
     // add instance to customers array 
     customers.push(customer)
 }
+createCustomer('Simon', 1 , `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem.`)
+createCustomer('Dave', 2 , `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem.`)
+createCustomer('Bob', 3 , `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem.`)
+createCustomer('Scott', 4 , `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, autem.`)
 })
