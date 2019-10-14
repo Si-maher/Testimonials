@@ -45,6 +45,15 @@ document.querySelectorAll('.btn').forEach(function(item) {
             document.getElementById('customer-name').textContent =customers[index].name
             document.getElementById('customer-text').textContent =customers[index].text
         }
+        if(event.target.parentElement.classList.contains('nextBtn')) {
+            if ( index === customers.length -1) {
+                index = -1
+            }
+            index ++
+            document.getElementById('customer-img').src =customers[index].img
+            document.getElementById('customer-name').textContent =customers[index].name
+            document.getElementById('customer-text').textContent =customers[index].text
+        }
 
     })
 })
